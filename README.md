@@ -4,12 +4,10 @@
 
 ## :fire: Javascript
 
-
+- [Promise](./Javascript/Promise/Promise.md)
 
 ## :bookmark_tabs: ​Test
 
 ### Cypress
-
-
 
 ## :octocat: Git
