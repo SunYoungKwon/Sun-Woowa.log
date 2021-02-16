@@ -11,3 +11,5 @@
 ### Cypress
 
 ## :octocat: Git
+
+- [페어프로그래밍하며 각자 계정으로 커밋로그 찍기](./Git/pair-programming/pair-programming.md)
