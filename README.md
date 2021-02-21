@@ -8,6 +8,7 @@
 
 ## :fire: Javascript
 
+- [Array 내장함수](./Javascript/array-methods)
 - [Promise](./Javascript/Promise)
 
 ## :bookmark_tabs: ​Test
