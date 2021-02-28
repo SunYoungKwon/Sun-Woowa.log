@@ -19,13 +19,6 @@
 - ws는 http 기반, wss는 https 기반
 - 교환 가능한 메세지는 텍스트(text)와 바이너리(binary)
 
-## 웹 소켓 통신을 위한 기술
-
-- WebSocket API
-  - 웹 브라우저간 실시간 양방향 통신환경 제공
-- SockJS
-- WebSocketClient(안드로이드)
-
 ## 웹 소켓 통신과 유사한 기술
 
 - Polling
@@ -40,11 +33,24 @@
 - Streaming
   - 이벤트 발생 시 응답을 내려주지만 응답을 완료시키지 않고 연결을 계속 유지
   - 매번 다시 요청을 보내지 않아도 됨
-  - 연결 시간이 길어지면 연결의 유효성 관리의 부담이 발생
+  - 연결 시간이 길어지면 연결의 유효성 관리 부분에 부담이 발생
+
+## 웹 소켓 통신을 위한 기술
+
+- WebSocket API
+  - API는 W3C, 프로토콜은 IETF(Internet Engineering Task Force)에서 관장 -> 표준
+  - 웹 브라우저간 실시간 양방향 통신환경 제공
+  - 80번 포트를 통해 웹 서버 연결
+- Socket.io
+  - WebSocket, FlashSocket, AJAX Long Polling, AJAX Multi part Streaming, IFrame, JSONP Polling을 하나의 API로 추상화한 것
+  - Node.js에서 사용 가능
+- SockJS
+- WebSocketClient(안드로이드)
 
 ## 링크
 
 - [[MDN] WebSocket](https://developer.mozilla.org/ko/docs/Web/API/WebSocket)
+- [[NAVER D2] WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)
 - [웹 소켓 통신(Web Doorket) - Joker](https://caileb.tistory.com/185)
 - [websocket, socket.io를 이용한 양방향 통신 - zych1751](http://www.secmem.org/blog/2019/08/17/websocket-socketio/)
 - [socket.io](https://socket.io/)
