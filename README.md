@@ -2,6 +2,8 @@
 
 > 우아한테크코스 3기 FE과정에 참여하며 공부한 내용 정리
 
+## :hammer: Project
+
 ## :rocket: HTML
 
 ## :art: CSS
@@ -18,3 +20,7 @@
 - [Github Page로 데모 만들기](./Git/github-page-demo/README.md)
 
 ## :microphone: Tecotalk
+
+## :guitar: .etc
+
+- [웹 소켓 통신](./etc/web-socket/README.md)
