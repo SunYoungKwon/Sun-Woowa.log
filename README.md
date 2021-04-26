@@ -2,11 +2,13 @@
 
 > 우아한테크코스 3기 FE과정에 참여하며 공부한 내용 정리
 
+## :bulb: Mission
+
+- [미션 정리표](./Mission)
+
 ## :hammer: Project
 
-## :rocket: HTML
-
-## :art: CSS
+## :art: HTML & CSS
 
 ## :fire: Javascript
 
