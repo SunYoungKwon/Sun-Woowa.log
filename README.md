@@ -10,6 +10,8 @@
 
 ## :art: HTML & CSS
 
+- [`<input>`](./HTML/input)
+
 ## :fire: Javascript
 
 - [Promise](./Javascript/Promise)
