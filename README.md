@@ -15,6 +15,7 @@
 ## :fire: Javascript
 
 - [Promise](./Javascript/Promise/README.md)
+- [this](./Javascript/this/README.md)
 
 ## :bookmark_tabs: ​Test
 
