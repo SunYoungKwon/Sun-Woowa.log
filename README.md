@@ -17,6 +17,10 @@
 - [Promise](./Javascript/Promise/README.md)
 - [this](./Javascript/this/README.md)
 
+### :books: Library
+
+- [Redux](./Javascript/Library/Redux/README.md)
+
 ## :bookmark_tabs: ​Test
 
 - [Storybook](./Test/Storybook/README.md)
