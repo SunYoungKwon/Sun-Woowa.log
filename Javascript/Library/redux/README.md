@@ -1,6 +1,6 @@
-# Redux
+# redux
 
-## Redux의 원칙
+## redux의 원칙
 
 ### 1. 하나의 앱에 하나의 store
 
