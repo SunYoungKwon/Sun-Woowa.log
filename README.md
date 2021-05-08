@@ -1,4 +1,4 @@
-# 🎈 What I Studied on Woowacourse
+# 🎈 What I Studied in Woowacourse
 
 > 우아한테크코스 3기 FE과정에 참여하며 공부한 내용 정리
 
@@ -20,7 +20,7 @@
 ### :books: Library
 
 - [redux](./Javascript/Library/redux/README.md)
-- [prop-types](./Javascript/Library/props-types/README.md)
+- [prop-types](./Javascript/Library/prop-types/README.md)
 
 ## :bookmark_tabs: ​Test
 

@@ -1,4 +1,4 @@
-# props-types
+# prop-types
 
 ## element vs elementType
 
