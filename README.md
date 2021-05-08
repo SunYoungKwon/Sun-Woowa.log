@@ -20,6 +20,7 @@
 ### :books: Library
 
 - [Redux](./Javascript/Library/Redux/README.md)
+- [prop-types](./Javascript/Library/props-types/README.md)
 
 ## :bookmark_tabs: ​Test
 
