@@ -36,6 +36,47 @@
 - 반환값이 넘겨받은 인수에 의존적
 - 넘겨받은 인수를 변경하지 않음
 
+## redux 사용하기
+
+### `combineReducers(reducers)`
+
+redux는 하나의 앱에 하나의 스토어만을 가질 수 있다. 하지만, 앱의 규모가 커지면 하나의 스토어에 여러개의 reducer를 등록하고 싶을 수 있다. 이때 사용할 수 있는 것이 `combineReducers`이다.
+
+```javascript
+// 여러개의 리듀서를 하나로 묶어서
+const rootReducer = combineReducers({
+  counter: counterReducer,
+  todos: todoReducer,
+});
+
+// 스토어에 한 번에 적용
+const store = createStore(rootReducer);
+```
+
+```javascript
+export default counterReducer = (state = 0, action) => {
+  switch (action.type) {
+    case 'INCREMENT':
+      return state + 1;  // 여기서 state는 store.counter
+    case 'DECREMENT':
+      return state - 1;
+    default:
+      return state;
+  };
+};
+
+---
+
+export default todoReducer = (state = [], action) => {
+  switch (action.type) {
+    case "ADD_TODO":
+      return state.concat([action.text]); // 여기서 state는 store.todos
+    default:
+      return state;
+  }
+};
+```
+
 ## 실습
 
 ### Counter
@@ -45,6 +86,7 @@
 ## 참고
 
 - [Fundamentals of Redux Course from Dan Abramov](https://egghead.io/courses/fundamentals-of-redux-course-from-dan-abramov-bd5cc867)
+- [combineReducers(reducers) - Redux공식문서](https://redux.js.org/api/combinereducers)
 
 ---
 
