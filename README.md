@@ -14,6 +14,7 @@
 
 ## :fire: Javascript
 
+- [Array 내장함수](./Javascript/array-methods/README.md)
 - [Promise](./Javascript/Promise/README.md)
 - [this](./Javascript/this/README.md)
 
