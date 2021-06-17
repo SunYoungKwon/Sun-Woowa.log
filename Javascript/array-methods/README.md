@@ -1,4 +1,4 @@
-# Javascript Methods
+# Javascript Array Methods
 
 [HOME](https://github.com/SunYoungKwon/What-I-Studied-on-Woowacourse)
 
@@ -14,8 +14,8 @@
 - filter
 - reduce
 - reduceRight
-- every
-- some
+- [every](#every)
+- [some](#some)
 - includes
 - find
 - findIndex
@@ -42,9 +42,9 @@
 - 여러 개의 요소를 한 번에 추가할 수 있음
 
 ```javascript
-const arr = ['a', 'b', 'c'];
-const arrLength = arr.push('d'); // 4
-arr.push('e', 'f'); // 6
+const arr = ["a", "b", "c"];
+const arrLength = arr.push("d"); // 4
+arr.push("e", "f"); // 6
 console.log(arr); // ['a', 'b', 'c', 'd', 'e', 'f']
 ```
 
@@ -54,9 +54,9 @@ console.log(arr); // ['a', 'b', 'c', 'd', 'e', 'f']
 - 빈 배열에서 사용하는 경우 `undefined` 반환
 
 ```javascript
-const arr = ['a', 'b', 'c'];
-const removedItem = arr.pop(); // 'c'
+const arr = ["a", "b", "c"];
 console.log(arr); // ['a', 'b']
+const removedItem = arr.pop(); // 'c'
 ```
 
 ### fill
@@ -115,6 +115,53 @@ console.log(testList); // [{arr: [5, 2, 3]}, {arr: [1, 2, 3]}, {arr: [1, 2, 3]}]
 const arr = [1, 2, 3];
 arr.forEach((element, index, arr) => (arr[index] = element + 1));
 console.log(arr); // [2, 3, 4]
+```
+
+### every
+
+- `array.every((item, index, array) => ())`
+- Boolean 반환
+  - 모든 요소에 대해 콜백함수가 truthy값을 반환하는 경우 `true` 반환
+  - 어떤 요소에 대해 콜백함수가 falsy값을 반환하는 경우, 나머지 요소에 대해 콜백함수를 실행하지 않고 즉시 `false` 반환
+  - 빈 배열에 대해 실행 시 `true` 반환
+
+```javascript
+[1, 2, 3].every((item) => item > 0); // true
+[-1, 0, 1].every((item) => item > 0); // false
+[0, 1].every((item) => item); // false
+[].every((item) => item > 0); // true
+
+[1, 2, 0, 3, 4].every((item) => {
+  console.log(item);
+  return item > 0;
+});
+// false
+// 1
+// 2
+// 0
+```
+
+### some
+
+- `array.some((item, index, array) => ())`
+- Boolean 반환
+  - 어떤 요소에 대해 콜백함수가 truthy값을 반환하는 경우, 나머지 요소에 대한 콜백함수를 실행하지 않고 즉시 `true` 반환
+  - 모든 요소에 대해 콜백함수가 falsy값을 반환하는 경우 `false` 반환
+
+```javascript
+[-1, 0, 1].some((item) => item > 0); // true
+[0, 1].some((item) => item); // true
+[0].some((item) => item); // false
+[].some((item) => item > 0); // false
+
+[-1, 0, 1, 2].some((item) => {
+  console.log(item);
+  return item > 0;
+});
+// true
+// -1
+// 0
+// 1
 ```
 
 ## 참고링크
