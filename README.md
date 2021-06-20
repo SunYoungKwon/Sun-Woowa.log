@@ -4,7 +4,8 @@
 
 ## :bulb: Mission
 
-- [미션 정리표](./Mission/README.md)
+- [나의 미션](./Mission/README.md)
+- [리뷰정리](./Mission/reviews/README.md)
 
 ## :hammer: Project
 
