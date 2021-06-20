@@ -33,9 +33,8 @@
 - [페어프로그래밍하며 각자 계정으로 커밋로그 찍기](./Git/pair-programming/README.md)
 - [Github Page로 데모 만들기](./Git/github-page-demo/README.md)
 
-## :microphone: Tecotalk
-
 ## :guitar: .etc
 
-- [웹 소켓 통신](./etc/web-socket/README.md)
 - [컴포넌트 기반 개발(CDD: Component-Driven Development)](./etc/CDD/README.md)
+- [CORS](./etc/CORS/README.md)
+- [웹 소켓 통신](./etc/web-socket/README.md)
