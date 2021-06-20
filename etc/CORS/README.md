@@ -19,4 +19,4 @@
 
 ---
 
-[[TOP]](#corscross-origin-resource-sharing) | [[HOME]](https://github.com/SunYoungKwon/What-I-Studied-on-Woowacourse)
+[[TOP]](#corscross-origin-resource-sharing) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)

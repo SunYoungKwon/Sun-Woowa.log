@@ -14,3 +14,7 @@
 10. A ➡ B의 저장소를 remote로 등록 `git remote add pair 'B의 저장소주소'`
 11. A ➡ B가 작업한 내용 가져오기 `git pull pair 'B의 미션 브랜치'`
 12. 4 ~ 11 반복
+
+---
+
+[[TOP]](#페어프로그래밍하며-각자-계정으로-커밋로그-찍기) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)

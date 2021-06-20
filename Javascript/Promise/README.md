@@ -41,7 +41,7 @@ const printCountdown = (countStart) => {
 const printMessage = () => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      console.log('출발!');
+      console.log("출발!");
       resolve();
     }, 1000);
   });
@@ -72,7 +72,7 @@ const countdown = async () => {
   await sleep(1000);
   console.log(1);
   await sleep(1000);
-  console.log('출발!');
+  console.log("출발!");
 };
 
 countdown();
@@ -85,3 +85,7 @@ countdown();
 ## 참고자료
 
 - [MDN - Promise](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+---
+
+[[TOP]](#promise) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)

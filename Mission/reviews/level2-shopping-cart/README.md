@@ -36,3 +36,7 @@
 - 주문목록은 최신 주문을 상단에 배치
 - 목록이 길어지는 경우 페이징, 무한 스크롤 고려하기
 - 로딩 시 모든 요소를 없애는 경우 화면이 깜빡이며 사용자에게 피로감을 줄 수 있음. 기존 화면을 유지하며 오버레이형식이나 toast 등을 사용하는 것이 좋음
+
+---
+
+[[TOP]](#level2-장바구니-리뷰) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)

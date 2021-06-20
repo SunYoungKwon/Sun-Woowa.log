@@ -11,3 +11,7 @@
 ## 03. `https://{github_username}.github.io/{repository_name}/`으로 접속
 
 ![Lotto mission demo](./3.JPG)
+
+---
+
+[[TOP]](#github-page로-데모-만들기) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)

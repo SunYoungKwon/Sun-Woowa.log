@@ -64,4 +64,4 @@ export const Content = ({ Element }) => {
 
 ---
 
-[[TOP]](./#prop-types) | [[HOME]](https://github.com/SunYoungKwon/What-I-Studied-on-Woowacourse#-what-i-studied-on-woowacourse)
+[[TOP]](#prop-types) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)

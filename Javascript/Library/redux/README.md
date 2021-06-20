@@ -1,4 +1,4 @@
-# redux
+# Redux
 
 ## redux의 원칙
 
@@ -90,4 +90,4 @@ export default todoReducer = (state = [], action) => {
 
 ---
 
-[[TOP]](./#Redux) | [[HOME]](https://github.com/SunYoungKwon/What-I-Studied-on-Woowacourse#-what-i-studied-on-woowacourse)
+[[TOP]](#redux) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)

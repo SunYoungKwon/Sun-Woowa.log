@@ -41,4 +41,4 @@ A(); // undefined
 
 ---
 
-[[TOP]](./#this) | [[HOME]](https://github.com/SunYoungKwon/What-I-Studied-on-Woowacourse#-what-i-studied-on-woowacourse)
+[[TOP]](#this) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)

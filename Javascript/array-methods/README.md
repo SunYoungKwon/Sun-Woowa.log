@@ -36,6 +36,8 @@
 - keys
 - values
 
+---
+
 ### push
 
 - 배열의 끝에 하나 이상의 요소를 추가하고, 배열의 새로운 길이를 반환
@@ -47,6 +49,10 @@ const arrLength = arr.push("d"); // 4
 arr.push("e", "f"); // 6
 console.log(arr); // ['a', 'b', 'c', 'd', 'e', 'f']
 ```
+
+[[TOP]](#javascript-array-methods)
+
+---
 
 ### pop
 
@@ -104,6 +110,10 @@ testList[0].arr[0] = 5;
 console.log(testList); // [{arr: [5, 2, 3]}, {arr: [1, 2, 3]}, {arr: [1, 2, 3]}]
 ```
 
+[[TOP]](#javascript-array-methods)
+
+---
+
 ### forEach
 
 - `array.forEach((item, index, array) => ())`
@@ -116,6 +126,10 @@ const arr = [1, 2, 3];
 arr.forEach((element, index, arr) => (arr[index] = element + 1));
 console.log(arr); // [2, 3, 4]
 ```
+
+[[TOP]](#javascript-array-methods)
+
+--
 
 ### every
 
@@ -141,6 +155,10 @@ console.log(arr); // [2, 3, 4]
 // 0
 ```
 
+[[TOP]](#javascript-array-methods)
+
+---
+
 ### some
 
 - `array.some((item, index, array) => ())`
@@ -164,10 +182,14 @@ console.log(arr); // [2, 3, 4]
 // 1
 ```
 
+[[TOP]](#javascript-array-methods)
+
+---
+
 ## 참고링크
 
 - [[MDN] Array](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ---
 
-[HOME](https://github.com/SunYoungKwon/What-I-Studied-on-Woowacourse)
+[[TOP]](#javascript-array-methods) | [[HOME]](https://github.com/SunYoungKwon/Sun-Woowa.log#-what-i-studied-in-woowacourse)
