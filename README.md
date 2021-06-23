@@ -38,4 +38,5 @@
 
 - [컴포넌트 기반 개발(CDD: Component-Driven Development)](./etc/CDD/README.md)
 - [CORS](./etc/CORS/README.md)
+- [브라우저 렌더링](./etc/browser-rendering/README.md)
 - [웹 소켓 통신](./etc/web-socket/README.md)
