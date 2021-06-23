@@ -29,14 +29,18 @@
 
 - [Storybook](./Test/Storybook/README.md)
 
+## :spider_web: Web
+
+- [CORS](./Web/CORS/README.md)
+- [브라우저 렌더링](./Web/browser-rendering/README.md)
+- [웹 소켓 통신](./Web/web-socket/README.md)
+
 ## :octocat: Git
 
+- [자주쓰는 Git 명령어 모음](https://github.com/SunYoungKwon/Study-Git#study-git)
 - [페어프로그래밍하며 각자 계정으로 커밋로그 찍기](./Git/pair-programming/README.md)
 - [Github Page로 데모 만들기](./Git/github-page-demo/README.md)
 
 ## :guitar: .etc
 
 - [컴포넌트 기반 개발(CDD: Component-Driven Development)](./etc/CDD/README.md)
-- [CORS](./etc/CORS/README.md)
-- [브라우저 렌더링](./etc/browser-rendering/README.md)
-- [웹 소켓 통신](./etc/web-socket/README.md)
