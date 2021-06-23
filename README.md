@@ -2,12 +2,10 @@
 
 > 우아한테크코스 3기 FE과정에 참여하며 공부한 내용 정리
 
-## :bulb: Mission
+## :bulb: Mission & Project
 
 - [나의 미션](./Mission/README.md)
 - [리뷰정리](./Mission/reviews/README.md)
-
-## :hammer: Project
 
 ## :art: HTML & CSS
 
