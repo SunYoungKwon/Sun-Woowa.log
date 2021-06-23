@@ -2,13 +2,17 @@
 
 ## 브라우저 구조
 
-- User Interface: 웹 페이지를 제외한 사용자와 상호작용하는 부분(예. 주소 표시줄, 이전/다음/새로고침 버튼 등)
-- Browser Engine: User Interface와 Rendering Engine 연결
-- Rendering Engine: 웹 페이지 표시
-- Networking: 네트워크 요청 수행
-- Javascript Interpreter: Javascript코드 실행
-- UI Backend: 체크박스나 버튼 같은 기본적인 위젯을 그려줌
-- Data Persistance: 보조 기억장치(예. localStorage, Cookie 등)에 데이터 저장
+<p align="center">
+  <img src="./browser.jpg" alt="브라우저 구조" width="600" />
+</p>
+
+1. User Interface: 웹 페이지를 제외한 사용자와 상호작용하는 부분(예. 주소 표시줄, 이전/다음/새로고침 버튼, 북마크 등)
+2. Browser Engine: User Interface와 Rendering Engine 연결
+3. Rendering Engine: 웹 페이지 표시
+4. Networking: 네트워크 요청 수행
+5. Javascript Interpreter: Javascript코드 실행
+6. UI Backend: 체크박스나 버튼 같은 기본적인 위젯을 그려줌
+7. Data Persistance: 보조 기억장치(예. localStorage, Cookie 등)에 데이터 저장
 
 ## 브라우저 렌더링 과정
 
@@ -29,9 +33,9 @@
     - Gecko(파이어폭스)
 - 바이트 -> 문자 -> 토큰 -> 노드 -> DOM(Document Object Model)
   - CSS도 동일한 과정으로 파싱됨
-    - CSSOM은  CSS의 상속의 반영하여 생성됨
+    - CSSOM은  CSS의 상속을 반영하여 생성됨
   - 바이트: 서버가 요청받은 HTML 파일을 메모리에 올리고 메모리에 올라간 바이트(2진수)를 보냄
-  - 문자:  meta 태그의 charset에 지정된 인코딩방식(예. UTF-8) 기준으로 문자열로 변경
+  - 문자: meta 태그의 charset에 지정된 인코딩방식(예. UTF-8) 기준으로 문자열로 변경
   - 토큰: 문법적 의미를 갖는 코드의 최소 단위
   - 노드: 각 토큰을 객체로 변환하여 생성됨. 문서 노드, 요소 노드, 어트리뷰트 노드, 텍스트 노드
   - DOM: 노드로 구성된 트리 자료구조, HTML문서를 파싱한 결과물
@@ -56,6 +60,7 @@
 
 ### 렌더트리 기준으로 레이아웃 계산 후 페인팅
 
+- 렌더링 엔진은 빠르게 내용을 표시하기 위해 HTML파싱 완료를 기다리지 않고 레이아웃과 페인팅 과정을 시작함
 - 레이아웃(리플로우)
   - 뷰포트 내 요소들의 크기와 위치 계산
   - `%`나 `em`과 같은 상대적인 단위가 `px`로 변경됨

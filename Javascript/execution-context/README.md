@@ -16,8 +16,8 @@
 
 #### 스택 vs 큐
 
-<p style="text-align: center;">
-  <img alt="스택과 큐" src="./stack-queue.jpg" width="500px"/>
+<p align="center">
+  <img alt="스택과 큐" src="./stack-queue.jpg" width="500"/>
 </p>
 
 - 스택: 후입선출(LIFO: Last In First Out)
@@ -39,8 +39,8 @@
 2. 함수명: 함수
 3. 변수명: undefined
 
-<p style="text-align: center;">
-  <img alt="스택과 큐" src="./VO-setting-order.png" width="500px"/>
+<p align="center">
+  <img alt="스택과 큐" src="./VO-setting-order.png" width="500"/>
 </p>
 
 함수 선언을 먼저 처리한 후에 변수 선언을 처리하기 때문에, 코드상 함수 a가 나중에 선언되었으나 마지막 `console.log(a)`의 결과는 함수가 아닌 변수 a의 값이 된다.
