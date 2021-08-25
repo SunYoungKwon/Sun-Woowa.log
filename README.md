@@ -10,6 +10,7 @@
 ## :art: HTML & CSS
 
 - [`<input>`](./HTML/input/README.md)
+- [`<svg>`](./HTML/svg/README.md)
 
 ## :fire: Javascript
 
@@ -22,6 +23,8 @@
 
 - [redux](./Javascript/Library/redux/README.md)
 - [prop-types](./Javascript/Library/prop-types/README.md)
+
+## :cyclone: Typescript
 
 ## :bookmark_tabs: ​Test
 
